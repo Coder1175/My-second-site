@@ -1,13 +1,42 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Golos+Text:wght@400..900&display=swap');
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: rgba(0, 0, 0, 0.869);
+  color: white;
+  font-family: 'Golos Text', sans-serif;
+  
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+.ddd {
+  background: linear-gradient(90deg, #fe756d 0%, #fed020 100%);
+box-shadow: 5px 5px 25px rgba(227, 61, 0, 0.31);
+padding: 0 150px 10px 12px;
+font-weight: 600;
+padding-top: 6px;
+border-radius: 8px;
+cursor: pointer;
+}
+.aaa {
+  background: linear-gradient(90deg, #9e40ff 23.47%, #2802a4 106.32%);
+padding: 0 150px 10px 12px;
+padding-top: 10px;
+font-weight: 600;
+border-radius: 8px;
+cursor: pointer;
+}
+.bbb {
+  font-weight: 600;
+border-radius: 8px;
+padding: 0 150px 10px 12px;
+background: #0065FF;
+padding-top: 10px;
+cursor: pointer;
 }
